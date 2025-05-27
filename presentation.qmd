@@ -1,0 +1,5 @@
+---
+title: ""
+author: "Yash Mali, Anna Kovtune, Irene Berezin"
+format: beamer
+---
