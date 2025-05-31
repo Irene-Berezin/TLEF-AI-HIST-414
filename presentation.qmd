@@ -1,5 +1,13 @@
 ---
 title: ""
 author: "Yash Mali, Anna Kovtune, Irene Berezin"
-format: beamer
+format: revealjs
+theme: serif
 ---
+
+# History 414 Ideas
+
+
+## Slide 2
+
+Testing 123
