@@ -1,13 +1,57 @@
 ---
-title: ""
+title: "HIST 414"
+subtitle: "Understanding Canadian legegal history through machine learning"
 author: "Yash Mali, Anna Kovtune, Irene Berezin"
 format: revealjs
 theme: serif
 ---
 
-# History 414 Ideas
+
+## Introduction
+Traditional approaches to text analysis of historical documents extensively rely on human coders for the analysis of documents, a process which is both time‐consuming, and prone to inter‐coder reliability issues: for example, different researchers may interpret the same passage in divergent ways, ways that are shaped by their own lived experiences that differ across the boad. Large language models (LLMs), by contrast, offer a more reproducible framework: while still biased, once trained or fine‐tuned on a corpus, they apply the same criteria uniformly across all texts, greatly reducing the variability introduced by multiple human annotators. 
+
+## Introduction
+However, as mentioned, LLMs themselves, by construction, absorb and reproduce biases present in the training data...
+
+:::{.columns}
+::: {.column width="40%"}
+![](example_hist_414.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+***What if, instead of viewing this as a flaw, we could harness those embedded biases to uncover latent trends in text corpora?*** identifying, for instance, how certain groups have been described or which issues were emphasized over time.
+:::
+
+:::
 
 
-## Slide 2
 
-Testing 123
+## Notebook 1: 
+**Learning Outcomes**: Through this class, students will...
+
+- Understand how how implicit bias can be ingrained in words embeddings when trained on a given corpus of text, and how we can use that bias to our advantage to discover implicit racial or gender-based biases in judicial decisions and court cases.
+- Answer an existing research question by following through and recreating the methodology of a published paper in the field of historical legal research, using a novel dataset.
+- Learn to present model outputs in ways that are meaningful and credible to historians and legal scholars.
+
+## Why is this important?
+
+Little academic research exists on analyzing the implicit biases found within the judiciary, particularly in relation to the language used in judicial opinions. When looking for case studies to analyze for this course, we could not find a single study analyzing identity bias in Canadian court decisions using any sort of machine learning technique. We hence consider this to be an open area of research that would make for an interesting demo for students and potentially inspire them to look more closely at this issue in their own personal projects. 
+
+## Key Features and Results
+
+:::{.columns}
+::: {.column width="30%"}
+![](racism_in_legal_texts.png){width="100%"}
+:::
+
+::: {.column width="70%"}
+Using word-embeddings and statistical methods, our aim will be to create a hands-on demo, consisting of a mix of theory and application, which will loosely replicate an existing American case study of implicit bias in supreme court decisions. 
+:::
+
+:::
+
+In class, we will try to answer *"to what extent, across time, are Canadian supreme court judges more likely to associate unpleasant terms with African-American/Indigenous names, and pleasant terms with white/non-indigenous names in their written opinions?"*
+
+
+
+## Reference
