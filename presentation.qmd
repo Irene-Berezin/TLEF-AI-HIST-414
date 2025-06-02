@@ -1,9 +1,10 @@
 ---
 title: "HIST 414"
-subtitle: "Understanding Canadian legegal history through machine learning"
-author: "Yash Mali, Anna Kovtune, Irene Berezin"
+subtitle: "Understanding Canadian legal history through machine learning"
+author: "Yash Mali, Anna Kovtunenko, Irene Berezin"
 format: revealjs
 theme: serif
+scrollable: true
 ---
 
 
@@ -52,6 +53,30 @@ Using word-embeddings and statistical methods, our aim will be to create a hands
 
 In class, we will try to answer *"to what extent, across time, are Canadian supreme court judges more likely to associate unpleasant terms with African-American/Indigenous names, and pleasant terms with white/non-indigenous names in their written opinions?"*
 
+## Notebook 2: 
+**Learning Outcomes**: Through this class, students will...
 
+- Understand how computational tools like topic modeling can offer new ways to explore and interpret historical court judgments, especially when analyzing how certain constitutional issues were discussed across time.
+- Make and support historical arguments about the constitutional concerns which dominated a particular period by identifying recurring themes in judicial decisions and connecting them to broader historical contexts.
+- Reflect on the strengths and limitations of using computational methods in historical research, and critique how such methods may shape, support, or obscure scholarly interpretations of constitutional history
+
+## Why is this important?
+
+Existing research has used topic modeling to trace constitutional themes in U.S. legal texts, but similar analysis of Canadian Supreme Court decisions remains limited. As grasping high-level, temporal patterns or shifts in legal reasoning is difficult in traditional analysis, without topic modelling, this lesson helps students identify broad patterns in legal reasoning over time, opening new avenues for historical inquiry. It encourages critical thinking about how national events and social change have shaped constitutional interpretation in Canada.
+
+## Key Features and Results
+
+:::{.columns}
+::: {.column width="40%"}
+![](supreme_court_topics_over_time.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+Using topic modeling and visual tools like word clouds and intertopic distance maps, this hands-on demo combines theory and application to explore how constitutional issues appear and shift across Supreme Court of Canada decisions.
+:::
+
+:::
+
+In class, we will ask: *“What dominant legal themes emerge in rulings from a given time period, and how might national events have influenced their prominence?”*
 
 ## Reference
