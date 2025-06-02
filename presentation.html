@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto-816793a8a4a837d14f6ea458e2f1c5cb.css">
+  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto-ff36d127a2ff1f970aa01473ea12da45.css">
   <link href="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -177,31 +177,37 @@ Yash Mali, Anna Kovtunenko, Irene Berezin
 </div></div>
 <p>In class, we will try to answer <em>“to what extent, across time, are Canadian supreme court judges more likely to associate unpleasant terms with African-American/Indigenous names, and pleasant terms with white/non-indigenous names in their written opinions?”</em></p>
 </section>
-<section id="notebook-2" class="slide level2">
-<h2>Notebook 2:</h2>
+<section id="notebook-3" class="slide level2">
+<h2>Notebook 3</h2>
 <p><strong>Learning Outcomes</strong>: Through this class, students will…</p>
 <ul>
-<li>Understand how computational tools like topic modeling can offer new ways to explore and interpret historical court judgments, especially when analyzing how certain constitutional issues were discussed across time.</li>
-<li>Make and support historical arguments about the constitutional concerns which dominated a particular period by identifying recurring themes in judicial decisions and connecting them to broader historical contexts.</li>
-<li>Reflect on the strengths and limitations of using computational methods in historical research, and critique how such methods may shape, support, or obscure scholarly interpretations of constitutional history</li>
+<li>Understand how word embeddings can be used to study bias in Supreme Court of Canada cases.</li>
+<li>Use word embeddings to observe and quantify bias evolving through time in the Supreme Court of Canada cases.</li>
+<li>Learn about what word embeddings are, how they work, and how they can be used to represent words ingrained with context.</li>
+<li>Learn about the operations you can perform on word embeddings what they imply.</li>
+<li>Learn when <em>not</em> to use word embeddings, and how to interpret them with caution.</li>
 </ul>
 </section>
-<section id="why-is-this-important-1" class="slide level2">
-<h2>Why is this important?</h2>
-<p>Existing research has used topic modeling to trace constitutional themes in U.S. legal texts, but similar analysis of Canadian Supreme Court decisions remains limited. As grasping high-level, temporal patterns or shifts in legal reasoning is difficult in traditional analysis, without topic modelling, this lesson helps students identify broad patterns in legal reasoning over time, opening new avenues for historical inquiry. It encourages critical thinking about how national events and social change have shaped constitutional interpretation in Canada.</p>
+<section id="class-structure" class="slide level2 scrollable">
+<h2>Class Structure</h2>
+<p>Use the Supreme Court of Canada Bulk Decisions Dataset.</p>
+<ol type="1">
+<li>Out of 1877 to 2024 pick a very pivotal time in canadian justice history.</li>
+<li>Say we pick 1960. Train a word embedding model on the Supreme Court of Canada cases from 1877 to 1960 and another one from 1960 to 2024.</li>
+<li>Compare the two models to see how the word embeddings have changed over time.</li>
+<li>For example, use word embedding association tests to measure gender or race bias shifting.</li>
+</ol>
 </section>
-<section id="key-features-and-results-1" class="slide level2">
-<h2>Key Features and Results</h2>
+<section id="key-features" class="slide level2">
+<h2>Key Features</h2>
+<p>Quantifying bias over time. Perhaps we will see the opposite because recent years will have more data and older years will have less reliable data.</p>
 <div class="columns">
-<div class="column" style="width:40%;">
-<p><img data-src="supreme_court_topics_over_time.png" style="width:100.0%"></p>
-</div><div class="column" style="width:60%;">
-<p>Using topic modeling and visual tools like word clouds and intertopic distance maps, this hands-on demo combines theory and application to explore how constitutional issues appear and shift across Supreme Court of Canada decisions.</p>
+<div class="column" style="width:65%;">
+<p><img data-src="temporal_bias.png"></p>
 </div></div>
-<p>In class, we will ask: <em>“What dominant legal themes emerge in rulings from a given time period, and how might national events have influenced their prominence?”</em></p>
 </section>
-<section id="reference" class="slide level2">
-<h2>Reference</h2>
+<section id="references" class="slide level2">
+<h2>References</h2>
 
 </section>
     </div>

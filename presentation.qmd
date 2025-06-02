@@ -3,6 +3,8 @@ title: "HIST 414"
 subtitle: "Understanding Canadian legal history through machine learning"
 author: "Yash Mali, Anna Kovtunenko, Irene Berezin"
 format: revealjs
+scrollable: true
+fontsize: 200%
 theme: serif
 scrollable: true
 ---
@@ -79,4 +81,4 @@ Using topic modeling and visual tools like word clouds and intertopic distance m
 
 In class, we will ask: *“What dominant legal themes emerge in rulings from a given time period, and how might national events have influenced their prominence?”*
 
-## Reference
+## References
