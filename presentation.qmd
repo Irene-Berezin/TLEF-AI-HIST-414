@@ -1,8 +1,10 @@
 ---
 title: "HIST 414"
-subtitle: "Understanding Canadian legegal history through machine learning"
+subtitle: "Understanding Canadian legal history through machine learning"
 author: "Yash Mali, Anna Kovtune, Irene Berezin"
 format: revealjs
+scrollable: true
+fontsize: 200%
 theme: serif
 ---
 
@@ -52,6 +54,34 @@ Using word-embeddings and statistical methods, our aim will be to create a hands
 
 In class, we will try to answer *"to what extent, across time, are Canadian supreme court judges more likely to associate unpleasant terms with African-American/Indigenous names, and pleasant terms with white/non-indigenous names in their written opinions?"*
 
+## Notebook 3
+
+**Learning Outcomes**: Through this class, students will...
+
+- Understand how word embeddings can be used to study bias in Supreme Court of Canada cases.
+- Use word embeddings to observe and quantify bias evolving through time in the Supreme Court of Canada cases.
+- Learn about what word embeddings are, how they work, and how they can be used to represent words ingrained with context.
+- Learn about the operations you can perform on word embeddings what they imply.
+- Learn when *not* to use word embeddings, and how to interpret them with caution.
+
+## Class Structure
+
+Use the Supreme Court of Canada Bulk Decisions Dataset.
+
+1. Out of 1877 to 2024 pick a very pivotal time in canadian justice history.
+2. Say we pick 1960. Train a word embedding model on the Supreme Court of Canada cases from 1877 to 1960 and another one from 1960 to 2024.
+3. Compare the two models to see how the word embeddings have changed over time.
+4. For example, use word embedding association tests to measure gender or race bias shifting.
+
+## Key Features
+
+Quantifying bias over time. Perhaps we will see the opposite because recent years will have more data and older years will have less reliable data.
+
+:::{.columns}
+::: {.column width="65%"}
+![](temporal_bias.png)
+:::
+:::
 
 
-## Reference
+## References
