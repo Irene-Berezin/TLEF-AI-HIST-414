@@ -74,6 +74,7 @@ Existing research has used topic modeling to trace constitutional themes in U.S.
 
 ::: {.column width="60%"}
 Using topic modeling and visual tools like word clouds and intertopic distance maps, this hands-on demo combines theory and application to explore how constitutional issues appear and shift across Supreme Court of Canada decisions.
+![](wordcloud.png){width="100%"}
 :::
 
 :::
